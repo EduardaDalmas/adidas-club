@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.title-page {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-decoration: overline;
+    text-align: center;
+}
+
+.cabecalho {
+    background-image: url('../assets/capa.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    color: black;
+}
+
+li .nav-link, .nav-item {
+    color: black;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile {
+    text-align: center;
+}
+
+.page-login {
+    background-image: url('../assets/background-login.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    color: black;
+}
+
+.cards-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+.botaoLogin {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 120px;
+}
+
+.contato {
+    margin: 0 auto;
+}
